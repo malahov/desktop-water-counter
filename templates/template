@@ -1,0 +1,39 @@
+<html>
+	<body>
+		<table style="width: 100%">
+			<tr>
+				<td style="text-align:left">Адресс</td>
+				<td style="padding-left:50px; text-align:right">:address</td>
+			</tr>
+			<tr>
+				<td style="text-align:left">Ответственный квартиросъемщик</td>
+				<td style="padding-left:50px; text-align:right">:user</td>
+			</tr>
+		</table>
+		<p>Период с :prevDate по :currentDate</p>
+		Показания приборов учета
+		<table cellspacing="0" cellpadding="4" width="100%">
+			
+			<tbody>
+				<tr>
+					<td style="border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: -moz-use-text-color -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 0cm 0.1cm 0.1cm;"></td>
+					<td style="border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: -moz-use-text-color -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 0cm 0.1cm 0.1cm;">Предыдущее показание счетчика</td>
+					<td style="border-width: 1px medium 1px 1px; border-style: solid none solid solid; border-color: -moz-use-text-color -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 0cm 0.1cm 0.1cm;">Текущее показание счетчика</td>
+					<td style="border: 1px solid rgb(0, 0, 0); padding: 0.1cm;">Расход</td>
+				</tr>
+				<tr>
+					<td style="border-width: medium medium 1px 1px; border-style: none none solid solid; border-color: -moz-use-text-color -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 0cm 0.1cm 0.1cm;">ХВ</td>
+					<td style="border-width: medium medium 1px 1px; border-style: none none solid solid; border-color: -moz-use-text-color -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 0cm 0.1cm 0.1cm;">:coldPrev</td>
+					<td style="border-width: medium medium 1px 1px; border-style: none none solid solid; border-color: -moz-use-text-color -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 0cm 0.1cm 0.1cm;">:coldCurrent</td>
+					<td style="border-width: medium 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 0.1cm 0.1cm;">:coldConsumption</td>
+				</tr>
+				<tr>
+					<td style="border-width: medium medium 1px 1px; border-style: none none solid solid; border-color: -moz-use-text-color -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 0cm 0.1cm 0.1cm;">ГВ</td>
+					<td style="border-width: medium medium 1px 1px; border-style: none none solid solid; border-color: -moz-use-text-color -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 0cm 0.1cm 0.1cm;">:hotPrev</td>
+					<td style="border-width: medium medium 1px 1px; border-style: none none solid solid; border-color: -moz-use-text-color -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 0cm 0.1cm 0.1cm;">:hotCurrent</td>
+					<td style="border-width: medium 1px 1px; border-style: none solid solid; border-color: -moz-use-text-color rgb(0, 0, 0) rgb(0, 0, 0); padding: 0cm 0.1cm 0.1cm;">:hotConsumption</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
